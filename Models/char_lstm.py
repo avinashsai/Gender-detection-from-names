@@ -28,11 +28,11 @@ data['names'] = data['names'].str.lower()
 
 corpus = list(data['names'].as_matrix())
 
-corpus[0:2]
+print(corpus[0:2])
 
 labels = data['labels'].as_matrix()
 
-labels[0:2]
+print(labels[0:2])
 
 avg_len = 0
 for sen in corpus:
